@@ -1,0 +1,4 @@
+jnativehook-keyboard-capture: jnativeKC.up
+jnativehook-keyboard-visualization: jnativeKV.up
+jnativehook-mouse-capture: jnativeMC.up
+jnativehook-mouse-visualization: jnativeMV.up

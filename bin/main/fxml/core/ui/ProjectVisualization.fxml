@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane id="scrollPaneAnalysis" fx:id="scrollPaneAnalysis" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.core.v2.controller.ProjectVisualizationController">
+   <content>
+      <GridPane id="gridPaneAnalysis" fx:id="gridPaneAnalysis" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="584.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+          <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+          <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <ImageView id="iconVisualization" fx:id="iconVisualization" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <image>
+                  <Image url="@../../../images/picture.png" />
+               </image>
+            </ImageView>
+            <Text id="textVisualization" fx:id="textVisualization" strokeType="OUTSIDE" strokeWidth="0.0" text="Visualization">
+               <GridPane.margin>
+                  <Insets left="50.0" />
+               </GridPane.margin>
+            </Text>
+            <Circle id="circleAdd" fx:id="circleAdd" fill="#b4eda6" onMouseClicked="#addClick" radius="10.0" stroke="#b4eda6" strokeType="INSIDE">
+               <GridPane.margin>
+                  <Insets left="300.0" />
+               </GridPane.margin>
+            </Circle>
+            <ImageView id="imageAdd" fx:id="imageAdd" fitHeight="12.0" fitWidth="12.0" onMouseClicked="#addClick" pickOnBounds="true" preserveRatio="true">
+               <GridPane.margin>
+                  <Insets left="304.0" />
+               </GridPane.margin>
+               <image>
+                  <Image url="@../../../images/add.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>

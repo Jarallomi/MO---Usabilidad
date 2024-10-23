@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="317.0" style="-fx-background-color: #D6CFCF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.core.v2.controller.AddPluginController">
+  <columnConstraints>
+    <ColumnConstraints />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="337.0" minWidth="10.0" prefWidth="19.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="337.0" minWidth="10.0" prefWidth="285.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="337.0" minWidth="10.0" prefWidth="20.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints />
+    <RowConstraints maxHeight="115.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="326.0" minHeight="10.0" prefHeight="326.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="101.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text id="addAnalysisç" fx:id="AddText" strokeType="OUTSIDE" strokeWidth="0.0" text="Plugin Name Configuration" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets bottom="5.0" />
+         </GridPane.margin></Text>
+      <Button id="addButton" fx:id="addButton" mnemonicParsing="false" onMouseClicked="#addOption" style="-fx-background-color: #b4eda6;" text="Add" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></Button>
+      <Button id="cancelButton" fx:id="cancelButton" mnemonicParsing="false" onMouseClicked="#close" style="-fx-background-color: #EA908A;" text="Cancel" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets right="5.0" />
+         </GridPane.margin></Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Configuration name:" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="3.0" />
+         </GridPane.margin>
+      </Text>
+      <TextField prefHeight="25.0" prefWidth="96.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="130.0" />
+         </GridPane.margin>
+      </TextField>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Select your device" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="38.0" />
+         </GridPane.margin>
+      </Text>
+      <ComboBox prefHeight="25.0" prefWidth="153.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="130.0" top="35.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Select sample rate" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="80.0" />
+         </GridPane.margin>
+      </Text>
+      <Slider prefHeight="14.0" prefWidth="145.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="130.0" top="90.0" />
+         </GridPane.margin>
+      </Slider>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="8000" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="130.0" top="68.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sensors:" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="115.0" />
+         </GridPane.margin>
+      </Text>
+      <CheckBox mnemonicParsing="false" text="Sensor1" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="50.0" top="115.0" />
+         </GridPane.margin>
+      </CheckBox>
+      <CheckBox mnemonicParsing="false" text="Sensor2" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="120.0" top="115.0" />
+         </GridPane.margin>
+      </CheckBox>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Color of background" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d6cfcf" height="21.0" stroke="BLACK" strokeType="INSIDE" width="19.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets left="120.0" />
+         </GridPane.margin>
+      </Rectangle>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="#d6cfcf" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Color of acept button" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="20.0" />
+         </GridPane.margin>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b4eda6" height="21.0" stroke="BLACK" strokeType="INSIDE" width="19.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="20.0" left="120.0" />
+         </GridPane.margin>
+      </Rectangle>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="#b4eda6" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="20.0" left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Color of cancel button" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="40.0" />
+         </GridPane.margin>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ea908a" height="21.0" stroke="BLACK" strokeType="INSIDE" width="19.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="40.0" left="120.0" />
+         </GridPane.margin>
+      </Rectangle>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="#ea908a" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="40.0" left="140.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Typography:  System (JavaFx)" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets top="151.0" />
+         </GridPane.margin>
+      </Text>
+   </children>
+</GridPane>

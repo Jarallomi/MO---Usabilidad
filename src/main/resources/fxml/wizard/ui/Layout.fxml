@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.wizardproject.controllers.WizardController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="250.0" style="-fx-background-color: #212121;">
+         <children>
+            <Pane prefHeight="260.0" prefWidth="250.0">
+               <children>
+                  <Label layoutX="29.0" layoutY="173.0" prefHeight="45.0" prefWidth="193.0" text="Multimodal Observer" textFill="#ffb253">
+                     <font>
+                        <Font name="Consolas" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="51.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/mo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <JFXButton fx:id="locationButton" alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="20.0" prefHeight="70.0" prefWidth="250.0" text="Ubicación" textFill="#b99c9c">
+               <font>
+                  <Font name="Lucida Sans Regular" size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fx:id="checkPath" fill="#f2ecec" glyphName="ARROW_LEFT" size="20" strokeType="OUTSIDE" textAlignment="RIGHT" wrappingWidth="17.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="participantsButton" alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="20.0" prefHeight="70.0" prefWidth="250.0" text="Participantes" textFill="#b99c9c">
+               <font>
+                  <Font name="Lucida Sans Regular" size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fx:id="checkParticipant" fill="#f2ecec" glyphName="ARROW_LEFT" size="20" strokeType="OUTSIDE" textAlignment="RIGHT" visible="false" wrappingWidth="17.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="captureButton" alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="20.0" prefHeight="70.0" prefWidth="250.0" text="Captura" textFill="#b99c9c">
+               <font>
+                  <Font name="Lucida Sans Regular" size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fx:id="checkCapture" fill="#f2ecec" glyphName="ARROW_LEFT" size="20" strokeType="OUTSIDE" textAlignment="RIGHT" visible="false" wrappingWidth="17.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="activitiesButton" alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="20.0" prefHeight="70.0" prefWidth="250.0" text="Actividades" textFill="#b99c9c">
+               <font>
+                  <Font name="Lucida Sans Regular" size="16.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fx:id="checkActivity" fill="#f2ecec" glyphName="ARROW_LEFT" size="20" strokeType="OUTSIDE" textAlignment="RIGHT" visible="false" wrappingWidth="17.0" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" 
+         prefWidth="660.0">
+         <children>
+            <VBox fx:id="contentPanel" alignment="CENTER" prefHeight="510.0" prefWidth="660.0" VBox.vgrow="ALWAYS" />
+            <Separator prefWidth="200.0" />
+            <HBox alignment="TOP_RIGHT" prefHeight="80.0" prefWidth="660.0" spacing="4.0">
+               <children>
+                  <Button fx:id="btnFinish" mnemonicParsing="false" onAction="#finish" 
+                          text="Finalizar" visible="false" />
+                  <Button fx:id="btnCancel" cancelButton="true" mnemonicParsing="false" 
+                          onAction="#cancel" text="Cancelar">
+                     <HBox.margin>
+                        <Insets right="8.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnBack" mnemonicParsing="false" 
+                          onAction="#back" text="Atras" />
+                  <Button fx:id="btnNext" mnemonicParsing="false" 
+                          onAction="#next" text="Siguiente" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

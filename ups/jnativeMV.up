@@ -1,0 +1,17 @@
+localVersionString: ./ups/versions/jnativeMVVersion.txt
+aToken: ghp_qF1B9H3G2x3
+bToken: Bu3rpxmL3VLXM
+cToken: DWIdI10adZ4C
+remoteVersionApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-mouse-visualization/Version.txt
+startDirRegister: ./
+remoteRegisterApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-mouse-visualization/FileRegister.txt
+remoteNotesApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-mouse-visualization/VersionNotes.txt
+downloadLinkZip: https://github.com/NaNoAAD/mo-jnativehook/archive/refs/heads/master.zip
+targetDirectoryToMoveZip: ./ups
+zipDownloadedPath: ./ups/Repo.zip
+targetDirectoryToExtract: ./ups
+repositoryName: mo-jnativehook
+pathToExecuteWrapperGradle: ./ups/mo-jnativehook/jnativehook-mouse-visualization
+pathToPluginRegisterFile: ./ups/registers/jnativeMVFileRegister.txt
+jarLocationInRepository: mo-jnativehook/jnativehook-mouse-visualization/build/libs
+buildedJarFileName: jnativehook-mouse-visualization-0.0.0.jar

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorParticipant" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="520.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.wizardproject.controllers.ParticipantsController">
+   <children>
+      <Pane layoutY="48.0" prefHeight="100.0" prefWidth="648.0" style="-fx-background-color: #616161;">
+         <padding>
+            <Insets left="250.0" />
+         </padding>
+         <children>
+            <Label fx:id="labelTitle" layoutX="49.0" layoutY="37.0" prefHeight="21.0" prefWidth="550.0" text="Nuevo Proyecto &gt; Participantes" textFill="#f8f8f8">
+               <font>
+                  <Font name="Khmer UI Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="participants_table" layoutX="74.0" layoutY="202.0" prefHeight="211.0" prefWidth="500.0" style="-fx-background-color: e0e1e5;">
+        <columns>
+          <TableColumn fx:id="id_column" prefWidth="55.0" text="ID" />
+            <TableColumn fx:id="date_column" minWidth="0.0" prefWidth="88.0" text="Fecha" />
+          <TableColumn fx:id="name_column" prefWidth="170.0" text="Nombre" />
+            <TableColumn fx:id="note_column" prefWidth="179.0" text="Nota" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="addParticipantButton" layoutX="107.0" layoutY="447.0" onAction="#handleNewParticipant" prefHeight="35.0" prefWidth="131.0" style="-fx-background-color: #167224;" text="Participante" textFill="WHITE">
+         <font>
+            <Font name="Gisha" size="12.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#f8f8f8" glyphName="PLUS" size="15" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="removeParticipantButton" layoutX="411.0" layoutY="447.0" onAction="#handleDeleteParticipant" prefHeight="35.0" prefWidth="131.0" style="-fx-background-color: #B40404;" text="Participante" textFill="WHITE">
+         <font>
+            <Font name="Gisha" size="12.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="MINUS" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="editParticipantButton" layoutX="259.0" layoutY="447.0" onAction="#handleEditParticipant" prefHeight="35.0" prefWidth="131.0" style="-fx-background-color: #ff8331;" text="Participante" textFill="WHITE">
+         <font>
+            <Font name="Gisha" size="12.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#f8f8f8" glyphName="EDIT" size="15" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

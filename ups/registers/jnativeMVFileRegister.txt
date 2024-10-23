@@ -1,0 +1,38 @@
+.\gradle\wrapper\gradle-wrapper.jar
+16/12/2023 23:45:44
+.\gradle\wrapper\gradle-wrapper.properties
+16/12/2023 23:45:44
+.\gradlew
+16/12/2023 23:45:44
+.\gradlew.bat
+16/12/2023 23:45:44
+.\libs\docking-frames-common.jar
+16/12/2023 00:55:22
+.\libs\docking-frames-core.jar
+16/12/2023 00:55:22
+.\libs\multimodal-observer-0.0.0.jar
+16/12/2023 00:55:23
+.\nbproject\project.properties
+16/12/2023 00:55:23
+.\src\main\java\mo\mouse\visualization\MouseEvent.java
+27/12/2023 12:35:28
+.\src\main\java\mo\mouse\visualization\MouseEventType.java
+16/12/2023 00:55:23
+.\src\main\java\mo\mouse\visualization\MousePlayer.java
+16/12/2023 00:55:23
+.\src\main\java\mo\mouse\visualization\MouseVisConfigDialog.java
+16/12/2023 00:55:23
+.\src\main\java\mo\mouse\visualization\MouseVisConfiguration.java
+16/12/2023 00:55:23
+.\src\main\java\mo\mouse\visualization\MouseVisPlugin.java
+16/12/2023 00:55:23
+.\src\main\java\mo\mouse\visualization\PlayerPane.java
+16/12/2023 00:55:23
+.\src\test\java\mo\mouse\visualization\MousePlayerTest.java
+16/12/2023 00:55:23
+.\src\test\resources\mo\mouse\visualization\mouseCaptureExample.txt
+16/12/2023 00:55:23
+.\Version.txt
+22/12/2023 19:29:04
+.\VersionNotes.txt
+21/12/2023 16:33:40

@@ -1,0 +1,37 @@
+# gradle
+.gradle
+.nb-gradle
+
+build/classes
+build/generated
+build/resources
+build/tmp
+*.class
+
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+*.war
+
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/jnativehook-mouse/.nb-gradle/
+/jnativehook-mouse/jnativehook-mouse-capture/.nb-gradle/
+/jnativehook-mouse-capture/.nb-gradle/
+/jnativehook-mouse-visualization/.nb-gradle/
+/mo/.nb-gradle/
+/neurosky-mindwave-eeg-data/.nb-gradle/
+
+#sonar
+.scannerwork
+
+#log
+log.txt
+proyecto/
+
+build/
+
+.idea/

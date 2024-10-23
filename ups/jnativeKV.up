@@ -1,0 +1,17 @@
+localVersionString: ./ups/versions/jnativeKVVersion.txt
+aToken: ghp_qF1B9H3G2x3
+bToken: Bu3rpxmL3VLXM
+cToken: DWIdI10adZ4C
+remoteVersionApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-keyboard-visualization/Version.txt
+startDirRegister: ./
+remoteRegisterApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-keyboard-visualization/FileRegister.txt
+remoteNotesApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-keyboard-visualization/VersionNotes.txt
+downloadLinkZip: https://github.com/NaNoAAD/mo-jnativehook/archive/refs/heads/master.zip
+targetDirectoryToMoveZip: ./ups
+zipDownloadedPath: ./ups/Repo.zip
+targetDirectoryToExtract: ./ups
+repositoryName: mo-jnativehook
+pathToExecuteWrapperGradle: ./ups/mo-jnativehook/jnativehook-keyboard-visualization
+pathToPluginRegisterFile: ./ups/registers/jnativeKVFileRegister.txt
+jarLocationInRepository: mo-jnativehook/jnativehook-keyboard-visualization/build/libs
+buildedJarFileName: jnativehook-keyboard-visualization-0.0.0.jar

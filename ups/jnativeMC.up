@@ -1,0 +1,17 @@
+localVersionString: ./ups/versions/jnativeMCVersion.txt
+aToken: ghp_qF1B9H3G2x3
+bToken: Bu3rpxmL3VLXM
+cToken: DWIdI10adZ4C
+remoteVersionApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-mouse-capture/Version.txt
+startDirRegister: ./
+remoteRegisterApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-mouse-capture/FileRegister.txt
+remoteNotesApiUrl: https://raw.githubusercontent.com/NaNoAAD/mo-jnativehook/master/jnativehook-mouse-capture/VersionNotes.txt
+downloadLinkZip: https://github.com/NaNoAAD/mo-jnativehook/archive/refs/heads/master.zip
+targetDirectoryToMoveZip: ./ups
+zipDownloadedPath: ./ups/Repo.zip
+targetDirectoryToExtract: ./ups
+repositoryName: mo-jnativehook
+pathToExecuteWrapperGradle: ./ups/mo-jnativehook/jnativehook-mouse-capture
+pathToPluginRegisterFile: ./ups/registers/jnativeKCFileRegister.txt
+jarLocationInRepository: mo-jnativehook/jnativehook-mouse-capture/build/libs
+buildedJarFileName: jnativehook-mouse-capture-0.0.0.jar

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane id="newProjectNameGridPane" fx:id="newProjectNameGridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="496.0" style="-fx-background-color: #D6CFCF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.core.v2.controller.NewProjectNameController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="124.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="344.0" minWidth="10.0" prefWidth="251.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="115.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="111.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="61.0" minHeight="4.0" prefHeight="19.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="96.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="96.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text id="nameProjectText" fx:id="nameProjectText" strokeType="OUTSIDE" strokeWidth="0.0" text="Project name:  " GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="3.0" />
+         </GridPane.margin>
+      </Text>
+      <Text id="newProjectLocationLabel" fx:id="newProjectLocationLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Project location:  " GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="20.0" />
+         </GridPane.margin>
+      </Text>
+      <TextField id="nameProjectText" fx:id="nameProjectText" onKeyTyped="#writeEvent" prefHeight="25.0" prefWidth="232.0" text="newproject" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+      <TextField id="newProjectLocationText" fx:id="newProjectLocationText" prefHeight="25.0" prefWidth="232.0" text="C:\Users\MultimodalObserver\" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets top="14.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button id="browseButton" fx:id="browseButton" mnemonicParsing="false" onMouseClicked="#browseClick" text="Browse" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="25.0" top="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button id="finishButton" fx:id="finishButton" mnemonicParsing="false" onMouseClicked="#finishClick" style="-fx-background-color: #b4eda6; -fx-border-radius: 0;" text="Finish" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button id="cancelButton" fx:id="cancelButton" mnemonicParsing="false" onMouseClicked="#cancelClick" style="-fx-background-color: #EA908A;" text="Cancel" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="200.0" />
+         </GridPane.margin>
+      </Button>
+      <Text id="textNewProject" fx:id="textNewProject" strokeType="OUTSIDE" strokeWidth="0.0" text="New Project" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+   </children>
+</GridPane>

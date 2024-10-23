@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane id="mainPane" fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.core.v2.controller.MainWindowsController">
+   <left>
+      <Pane fx:id="menuBar" prefHeight="690.0" prefWidth="150.0" style="-fx-background-color: #4E4E4E;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="1.0" prefHeight="690.0" prefWidth="150.0">
+               <children>
+                  <GridPane prefHeight="320.0" prefWidth="150.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button id="buttonNewProject" fx:id="buttonNewProject" ellipsisString="" mnemonicParsing="false" onMouseClicked="#newProject" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Opcion 1" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button id="buttonMyProjects" fx:id="buttonMyProjects" ellipsisString="" mnemonicParsing="false" onAction="#myProjects" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Opcion 2" textFill="WHITE" textOverrun="CLIP" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="buttonPlugins" mnemonicParsing="false" onAction="#plugins" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Steph 1" textFill="WHITE" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="buttonSettings" mnemonicParsing="false" onAction="#settings" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Steph 2" textFill="WHITE" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="buttonExit" mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Resume" textFill="WHITE" GridPane.rowIndex="5">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets top="150.0" />
+                     </VBox.margin>
+                  </GridPane>
+               </children>
+            </VBox>
+         </children></Pane>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="97.0" prefWidth="731.0" style="-fx-background-color: #4E4E4E;">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <children>
+                  <Text boundsType="VISUAL" fill="WHITE" layoutX="3.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wizard name" wrappingWidth="446.5859375">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <GridPane prefHeight="531.0" prefWidth="731.0" style="-fx-background-color: white;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Pane prefHeight="220.0" prefWidth="366.0" style="-fx-background-color: white;">
+                     <children>
+                        <GridPane prefHeight="528.0" prefWidth="94.0" style="-fx-background-color: #B2AFAFA6;">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Sub menu" />
+                              <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Option 1" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                        <Pane layoutX="618.0" prefHeight="524.0" prefWidth="113.0" style="-fx-background-color: #F3F3F3;">
+                           <children>
+                              <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="1.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="messages and tutorials" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="72.638671875" />
+                           </children>
+                        </Pane>
+                        <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="104.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Backgroun color of submenu" wrappingWidth="63.806640625" />
+                        <Text layoutX="202.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" #B2AFAFA6" />
+                        <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="104.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Background color of tutorial area" wrappingWidth="68.6171875" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b2afaf" height="15.0" layoutX="176.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f3f3f3" height="15.0" layoutX="176.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                        <Text layoutX="202.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" #F3F3F3" />
+                        <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="104.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Background color of center area" wrappingWidth="68.6171875" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="15.0" layoutX="176.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                        <Text layoutX="202.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" #FFFFFF" />
+                        <Pane layoutX="94.0" prefHeight="14.0" prefWidth="637.0" style="-fx-background-color: #B2AFAFA6;" />
+                        <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="104.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Background color of buttons" wrappingWidth="68.6171875" />
+                        <Text layoutX="203.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" transparent" />
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

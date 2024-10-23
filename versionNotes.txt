@@ -1,0 +1,11 @@
+Notas de la version 5.0.0.4
+
+Esta nueva version de Multimodal Observer ofrece:
+
+-Cambios significativos en la interfaz de usuario, se espera que la experiencia al usar MO sea mas cómoda y amigable al crear, manejar y desarrollar proyectos de toma de datos multimodales
+-Nuestra Vaquita Favorita ahora tiene un cambio de Look!
+-Cambios en el titulo a modo de prueba
+
+
+Este atento a futuras actualizaciones
+Gracias por usar Multimodal Observer!

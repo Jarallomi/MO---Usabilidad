@@ -1,0 +1,22 @@
+.\gradle\wrapper\gradle-wrapper.jar
+16/12/2023 23:45:41
+.\gradle\wrapper\gradle-wrapper.properties
+16/12/2023 23:45:41
+.\gradlew
+16/12/2023 23:45:41
+.\gradlew.bat
+16/12/2023 23:45:41
+.\libs\docking-frames-common.jar
+16/12/2023 00:55:22
+.\libs\docking-frames-core.jar
+16/12/2023 00:55:22
+.\libs\multimodal-observer-0.0.0.jar
+16/12/2023 00:55:22
+.\src\main\java\mo\mouse\capture\MouseCaptureConfiguration.java
+16/12/2023 00:55:22
+.\src\main\java\mo\mouse\capture\MouseCaptureConfigurationDialog.java
+16/12/2023 00:55:22
+.\src\main\java\mo\mouse\capture\MouseCapturePlugin.java
+16/12/2023 00:55:22
+.\src\main\java\mo\mouse\capture\MouseRecorder.java
+16/12/2023 00:55:22

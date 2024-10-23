@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="projectMenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mo.core.v2.controller.ProjectMenuController">
+   <top>
+      <Pane prefHeight="15.0" prefWidth="600.0" style="-fx-background-color: #B2AFAFA6;" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <GridPane prefHeight="385.0" prefWidth="95.0" style="-fx-background-color: #B2AFAFA6;" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="88.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="146.0" minHeight="10.0" prefHeight="129.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text id="nameProject" fx:id="nameProjectText" strokeType="OUTSIDE" strokeWidth="0.0" text="My Project" textAlignment="CENTER" wrappingWidth="95.13671875">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button id="participantsButton" fx:id="participantsButton" mnemonicParsing="false" onMouseClicked="#clickParticipants" prefHeight="39.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Participants" GridPane.rowIndex="1" />
+            <Button id="captureButton" fx:id="captureButton" mnemonicParsing="false" onMouseClicked="#clickCaptures" prefHeight="39.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Captures" GridPane.rowIndex="2" />
+            <Button id="analysisButton" fx:id="analysisButton" mnemonicParsing="false" onMouseClicked="#clickAnalysis" prefHeight="39.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Analysis" GridPane.rowIndex="3" />
+            <Button id="visualizationButton" fx:id="visualizationButton" mnemonicParsing="false" onMouseClicked="#clickVisualizations" prefHeight="39.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Visualizations" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+   </left>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+   <center>
+      <AnchorPane id="centerPane" fx:id="centerPane" prefHeight="593.0" prefWidth="352.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <Pane id="tutorialPane" fx:id="tutorialPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F3F3F3; -fx-border-color: #F3F3F3;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="17.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to your new project">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. First, you must add participants by selecting add participant" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. After adding the participants you want, you must select Capture to add the data captures that will be carried out" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Then you must add the captures you want by selecting add capture" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. When you add the captures you need, you must select Analysis to be able to add the analyzes to be performed" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. To add analysis you must select the add button" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. When you have added the analyzes you must go to the visualizations section to continue with the last section of the creation of your project" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7. As in the previous sections, to add a visualization you must select add and choose the visualization you want" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8. When you have added the visualizations you want, you will have finished creating your new project" wrappingWidth="173.802734375" />
+            <Text layoutX="13.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9. To start a capture you must select the red circle icon" wrappingWidth="173.802734375" />
+         </children>
+      </Pane>
+   </right>
+</BorderPane>
