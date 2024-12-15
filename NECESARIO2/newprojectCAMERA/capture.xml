@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<capture>
+	<name>Captura</name>
+	<plugin class="webcamcaptureplugin.WebcamCapturePlugin">
+		<path>capture\webcam-capture.xml</path>
+	</plugin>
+</capture>

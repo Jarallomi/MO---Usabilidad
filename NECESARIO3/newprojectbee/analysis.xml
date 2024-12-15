@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<analysis>
+	<name>Análisis</name>
+	<plugin class="mo.analysis.NotesAnalysisPlugin">
+		<path>analysis\notes-analysis.xml</path>
+	</plugin>
+</analysis>

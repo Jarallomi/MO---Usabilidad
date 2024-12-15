@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<capture>
+	<name>Captura</name>
+	<plugin class="audiocaptureplugin.AudioCapturePlugin">
+		<path>capture\audio-capture.xml</path>
+	</plugin>
+</capture>

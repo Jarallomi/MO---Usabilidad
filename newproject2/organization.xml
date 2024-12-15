@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<organization>
+	<participants>
+		<participant isLocked="false">
+			<id>1</id>
+			<name>aa</name>
+			<notes>[]</notes>
+			<folder>/participant-1</folder>
+			<date>
+				<day>23</day>
+				<month>9</month>
+				<year>2024</year>
+			</date>
+		</participant>
+	</participants>
+	<stage class="mo.capture.CaptureStage">capture.xml</stage>
+	<stage class="mo.analysis.AnalysisStage">analysis.xml</stage>
+	<stage class="mo.visualization.VisualizationStage">visualization.xml</stage>
+</organization>

@@ -451,6 +451,7 @@ public class ProjectMenuController implements Initializable {
         JPanel panelAux = null;
         if(IndexDockable != null){
             //IndexDockable-2 para el analisis
+            System.out.println("Tamanio de lista: " + playableConfigurations.size() + ", Indice a acceder: " + IndexDockable);
             DockableElement docka = (DockableElement) controlA.getCDockable(IndexDockable+1);
             panelA = (JPanel) docka.getContentPane();
             panelA.setSize(200, 200);
@@ -551,6 +552,7 @@ public class ProjectMenuController implements Initializable {
         JPanel panelAux = null;
         if(IndexDockable != null){
             //IndexDockable-2 para el analisis??
+            System.out.println("Tamanio de lista: " + playableConfigurations.size() + ", Indice a acceder: " + IndexDockable);
             DockableElement docka = (DockableElement) controlA.getCDockable(IndexDockable);
             docka.setVisible(false);
             panelA = (JPanel) docka.getContentPane();
