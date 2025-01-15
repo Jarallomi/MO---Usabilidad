@@ -1,0 +1,93 @@
+1734030152358,NATIVE_KEY_PRESSED,keyCode=58,keyText=Bloqueo de Mayúsculas,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=20
+1734030152535,NATIVE_KEY_PRESSED,keyCode=18,keyText=E,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=69
+1734030152535,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='E',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=69
+1734030152538,NATIVE_KEY_RELEASED,keyCode=58,keyText=Bloqueo de Mayúsculas,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=20
+1734030152626,NATIVE_KEY_PRESSED,keyCode=58,keyText=Bloqueo de Mayúsculas,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=20
+1734030152674,NATIVE_KEY_RELEASED,keyCode=18,keyText=E,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=69
+1734030152741,NATIVE_KEY_RELEASED,keyCode=58,keyText=Bloqueo de Mayúsculas,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=20
+1734030152771,NATIVE_KEY_PRESSED,keyCode=38,keyText=L,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=76
+1734030152771,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='l',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=76
+1734030152863,NATIVE_KEY_RELEASED,keyCode=38,keyText=L,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=76
+1734030152894,NATIVE_KEY_PRESSED,keyCode=57,keyText=Espacio,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=32
+1734030152894,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=' ',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=32
+1734030152979,NATIVE_KEY_PRESSED,keyCode=50,keyText=M,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=77
+1734030152979,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='m',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=77
+1734030153016,NATIVE_KEY_RELEASED,keyCode=57,keyText=Espacio,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=32
+1734030153080,NATIVE_KEY_PRESSED,keyCode=23,keyText=I,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=73
+1734030153080,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='i',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=73
+1734030153118,NATIVE_KEY_RELEASED,keyCode=50,keyText=M,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=77
+1734030153186,NATIVE_KEY_RELEASED,keyCode=23,keyText=I,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=73
+1734030153396,NATIVE_KEY_PRESSED,keyCode=31,keyText=S,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=83
+1734030153396,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='s',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=83
+1734030153497,NATIVE_KEY_PRESSED,keyCode=50,keyText=M,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=77
+1734030153497,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='m',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=77
+1734030153530,NATIVE_KEY_RELEASED,keyCode=31,keyText=S,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=83
+1734030153577,NATIVE_KEY_PRESSED,keyCode=23,keyText=I,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=73
+1734030153577,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='i',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=73
+1734030153646,NATIVE_KEY_RELEASED,keyCode=50,keyText=M,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=77
+1734030153705,NATIVE_KEY_RELEASED,keyCode=23,keyText=I,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=73
+1734030153737,NATIVE_KEY_PRESSED,keyCode=31,keyText=S,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=83
+1734030153737,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='s',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=83
+1734030153826,NATIVE_KEY_PRESSED,keyCode=23,keyText=I,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=73
+1734030153826,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='i',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=73
+1734030153846,NATIVE_KEY_RELEASED,keyCode=31,keyText=S,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=83
+1734030153900,NATIVE_KEY_RELEASED,keyCode=23,keyText=I,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=73
+1734030153952,NATIVE_KEY_PRESSED,keyCode=50,keyText=M,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=77
+1734030153952,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='m',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=77
+1734030154017,NATIVE_KEY_PRESSED,keyCode=24,keyText=O,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=79
+1734030154017,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='o',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=79
+1734030154075,NATIVE_KEY_RELEASED,keyCode=50,keyText=M,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=77
+1734030154104,NATIVE_KEY_RELEASED,keyCode=24,keyText=O,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=79
+1734030154111,NATIVE_KEY_PRESSED,keyCode=57,keyText=Espacio,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=32
+1734030154111,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=' ',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=32
+1734030154213,NATIVE_KEY_PRESSED,keyCode=37,keyText=K,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=75
+1734030154213,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='k',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=75
+1734030154225,NATIVE_KEY_RELEASED,keyCode=57,keyText=Espacio,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=32
+1734030154290,NATIVE_KEY_PRESSED,keyCode=18,keyText=E,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=69
+1734030154290,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='e',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=69
+1734030154327,NATIVE_KEY_RELEASED,keyCode=37,keyText=K,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=75
+1734030154374,NATIVE_KEY_RELEASED,keyCode=18,keyText=E,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=69
+1734030154399,NATIVE_KEY_PRESSED,keyCode=48,keyText=B,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=66
+1734030154399,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='b',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=66
+1734030154477,NATIVE_KEY_PRESSED,keyCode=18,keyText=E,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=69
+1734030154477,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='e',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=69
+1734030154499,NATIVE_KEY_RELEASED,keyCode=48,keyText=B,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=66
+1734030154577,NATIVE_KEY_RELEASED,keyCode=18,keyText=E,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=69
+1734030154606,NATIVE_KEY_PRESSED,keyCode=32,keyText=D,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=68
+1734030154606,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='d',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=68
+1734030154681,NATIVE_KEY_PRESSED,keyCode=24,keyText=O,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=79
+1734030154681,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='o',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=79
+1734030154735,NATIVE_KEY_RELEASED,keyCode=32,keyText=D,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=68
+1734030154771,NATIVE_KEY_RELEASED,keyCode=24,keyText=O,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=79
+1734030155623,NATIVE_KEY_PRESSED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030155623,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=',',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=188
+1734030155691,NATIVE_KEY_RELEASED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030155818,NATIVE_KEY_PRESSED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030155818,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=',',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=188
+1734030155893,NATIVE_KEY_RELEASED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156019,NATIVE_KEY_PRESSED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156019,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=',',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=188
+1734030156106,NATIVE_KEY_RELEASED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156226,NATIVE_KEY_PRESSED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156226,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=',',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=188
+1734030156314,NATIVE_KEY_RELEASED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156434,NATIVE_KEY_PRESSED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156434,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar=',',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=188
+1734030156531,NATIVE_KEY_RELEASED,keyCode=51,keyText=Coma,keyChar=No Definido,keyLocation=KEY_LOCATION_STANDARD,rawCode=188
+1734030156705,NATIVE_KEY_PRESSED,keyCode=54,keyText=Right Shift,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_RIGHT,rawCode=161
+1734030156848,NATIVE_KEY_PRESSED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030156848,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='?',modifiers=Mayús,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=219
+1734030156961,NATIVE_KEY_RELEASED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157060,NATIVE_KEY_PRESSED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157060,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='?',modifiers=Mayús,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=219
+1734030157137,NATIVE_KEY_RELEASED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157249,NATIVE_KEY_PRESSED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157249,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='?',modifiers=Mayús,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=219
+1734030157333,NATIVE_KEY_RELEASED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157437,NATIVE_KEY_PRESSED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157437,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='?',modifiers=Mayús,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=219
+1734030157516,NATIVE_KEY_RELEASED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157632,NATIVE_KEY_PRESSED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157632,NATIVE_KEY_TYPED,keyCode=0,keyText=No Definido,keyChar='?',modifiers=Mayús,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=219
+1734030157715,NATIVE_KEY_RELEASED,keyCode=26,keyText=Paréntesis de Apertura,keyChar=No Definido,modifiers=Mayús,keyLocation=KEY_LOCATION_STANDARD,rawCode=219
+1734030157718,NATIVE_KEY_RELEASED,keyCode=54,keyText=Right Shift,keyChar=No Definido,keyLocation=KEY_LOCATION_RIGHT,rawCode=161

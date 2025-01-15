@@ -1,0 +1,56 @@
+apply plugin: 'java'
+sourceCompatibility = '1.8'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+version = '1.0.0'
+
+//evaluationDependsOn(':mo')
+
+repositories {
+    mavenCentral()
+   
+    //allow local dependencies (dockframes)
+    flatDir {
+        dirs '../libs'
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    
+    //compile project(':mo')
+    implementation name: "multimodal-observer", version: '0.0.0'
+    implementation 'commons-io:commons-io:2.11.0'
+    implementation 'bibliothek:docking-frames-core'
+    implementation 'bibliothek:docking-frames-common'
+    
+    testImplementation group: 'junit', name: 'junit', version: '4.10'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes( 'Implementation-Title'   : 'Gradle',
+                    'Implementation-Version' :  version,
+                    'Main-Class': 'mo.keyboard.capture.KeyboardCapturePlugin'
+        )
+    }
+    
+    doLast{
+        copy{
+            from 'src/main/resources'
+            into 'build/libs'
+        }
+    }
+}
